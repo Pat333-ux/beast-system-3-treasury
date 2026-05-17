@@ -1,0 +1,68 @@
+🟥 New World Order DAO
+Treasury Division — .gitignore
+Red Ouroboros Seal — Authorized by CEO Pat Tarwater Jr.
+.gitignore
+Code
+# ============================
+# Beast System 3.0 — Treasury
+# ============================
+
+# Node modules (for contract testing, scripts, CI)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts (Hardhat, Foundry, Truffle, etc.)
+artifacts/
+cache/
+typechain/
+coverage/
+coverage.json
+
+# Environment variables (never committed)
+.env
+.env.local
+.env.*.local
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# Python virtual environments (if used for tooling)
+venv/
+__pycache__/
+
+# Compiled documents
+*.pdf
+*.docx
+
+# Local-only data
+local/
+secrets/
+keys/
+Why this .gitignore is correct for the Treasury repo
+It keeps all governance, compliance, and financial documents tracked (required for auditability).
+
+It ignores only non‑governance artifacts like build files, logs, and environment variables.
+
+It supports smart contract development, testing, and automation scripts.
+
+It avoids ignoring anything that would break chain‑of‑custody, ledger integrity, or federal filing completeness.
+
+If you want a stricter version, a lighter version, or a version tailored to a specific toolchain (Hardhat, Foundry, Brownie), I can generate that too.
